@@ -15,7 +15,7 @@ podman run -dt --pod http-store --env-file environment \
     -v $PWD/nginx.conf:/bitnami/nginx/conf/nginx.conf \
     -v $HTTP_STORE_PATH:/var/www/files \
     -p $HTTP_PORT:8888 \
-    --name store quay.io/repository/bitnami/nginx:latest
+    --name store quay.io/bitnami/nginx:latest
 
 echo # Access HTTP Store at http://localhost:8080
 echo #
