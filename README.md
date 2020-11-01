@@ -8,8 +8,8 @@
 
 ## Dependencies
 - Create and update required configuration files:
-  - [`/opt/http_store/`](./environment)
-  - [`/opt/http_store/nginx.conf`](./nginx-ui.conf)
+  - [`/opt/http_store/environment`](./environment)
+  - [`/opt/http_store/nginx.conf`](./nginx.conf)
 - Requires [podman](https://podman.io/)
 
 ## Start http_store (podman)
