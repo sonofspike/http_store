@@ -6,3 +6,5 @@ echo #
 echo ############################################
 podman pod rm -f http-store | true
 
+podman pod ps
+
