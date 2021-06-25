@@ -9,7 +9,7 @@
 ## Dependencies
 - Create and update required configuration files:
   - [`/opt/http_store/environment`](./environment)
-  - [`/opt/http_store/nginx.conf`](./nginx.conf)
+
 - Requires [podman](https://podman.io/)
 
 ## Start http_store (podman)
@@ -25,5 +25,5 @@ stop_http_store.sh
 ```
 
 ## References:
-- Using NGNIX as WebDAV server [here](https://quay.io/repository/bitnami/nginx)
+
 
